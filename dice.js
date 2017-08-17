@@ -8,6 +8,10 @@ var sixDie = { //defining an ojbect
         this.totalRolls++;
         this.totalCount+=die;
         return die;
+    },
+    reset: function() {
+        this.totalRolls=0;
+        this.totalCount=0;
     }
 };
 
@@ -21,6 +25,10 @@ var twelveDie = { //defining an ojbect
         this.totalRolls++;
         this.totalCount+=die;
         return die;
+    },
+    reset: function() {
+        this.totalRolls=0;
+        this.totalCount=0;
     }
 };
 
@@ -34,6 +42,10 @@ var twentyDie = { //defining an ojbect
         this.totalRolls++;
         this.totalCount+=die;
         return die;
+    },
+    reset: function() {
+        this.totalRolls=0;
+        this.totalCount=0;
     }
 };
 

@@ -21,15 +21,20 @@ for(i=0; i<mySixDieRolls; i++){
     console.log(mySixDie.roll(mySixDie.size));
 }
 console.log("Total count of rolls: " + mySixDie.totalCount);
+mySixDie.reset();
+
 
 console.log("Rolling the " + myTwelveDie.type + " die " + myTwelveDieRolls + " times:");
 for(i=0; i<myTwelveDieRolls; i++){
     console.log(myTwelveDie.roll(myTwelveDie.size));
 }
 console.log("Total count of rolls: " + myTwelveDie.totalCount);
+myTwelveDie.reset();
+
 
 console.log("Rolling the " + myTwentyDie.type + " die " + myTwentyDieRolls + " times:");
 for(i=0; i<myTwentyDieRolls; i++){
     console.log(myTwentyDie.roll(myTwentyDie.size));
 }
 console.log("Total count of rolls: " + myTwentyDie.totalCount);
+myTwentyDie.reset();
