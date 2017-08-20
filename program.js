@@ -2,7 +2,9 @@
 var dice = require("./dice.js");
 
 //Describes the dice variable we set our die export to
+console.log("//////DESCRIPTION OF EXPORTED DICE OBJECTS//////");
 console.log(dice);
+console.log("//////DESCRIPTION OF EXPORTED DICE OBJECTS//////\n");
 
 //Creates new die variable and grabs the exported attributes from the dice.js file
 //which defines the dice objects
